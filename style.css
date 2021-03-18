@@ -1,0 +1,127 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+/*background*/
+body{
+    background-image: url("./Images/tequila.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    vertical-align: middle;
+    background-size: 120%;
+    background-blend-mode: multiply;
+    background-color: rgba(0, 0, 0, .6); 
+    background-attachment: fixed;
+}
+
+/*white space*/
+.main{
+    width:1122px;
+    height:500px;
+    background-color: white;
+    border-radius: 100px;
+}
+
+/*used to center div*/
+.parent-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 70px;
+}
+
+
+/*nav bar styling*/
+.logo{
+    padding-top: 37px;
+    padding-left: 31px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+}
+
+.logo img{
+    display: inline-block;
+}
+.nav-shape{
+    width:120px;
+    height:35px;
+    border-radius: 80px;
+    border: solid black 3px;
+    background-color: white;
+    
+}
+.nav li{
+    list-style: none;
+    display: inline-block;
+    vertical-align: middle;
+}
+.bar.one{
+    padding-left:120px;
+    padding-bottom: 0;
+}
+
+.bar{
+    padding-left:15px;
+    padding-right:15x;
+    padding-top:-50px;
+    
+}
+
+.navtext{
+    font-family:'Roboto', sans-serif;
+    font-weight: 800;
+    font-size:15px;
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 4px;
+    color:black;
+}
+
+.nav-shape:hover{
+    background-color: black;
+    cursor: pointer;
+    color:white;
+}
+.nav-text:hover{
+    color:white;
+}
+
+.nav a{
+    text-decoration: none;
+    color:white;
+}
+/*only elements with an anchor element will go white*/
+a .navtext:hover{
+    color: white;
+
+}
+
+
+/*end of navbar styling*/
+
+/*home page content styling*/
+.tequila{
+    padding-top:0;
+    font-family: 'Anton', sans-serif;
+    font-size: 90px;
+    text-transform: uppercase;
+    line-height: 90px;
+    position:absolute;
+    top:200px;
+    right:300px;
+}
+
+.agave{
+    position:relative;
+    z-index:1;
+    left:200px;
+    bottom:20px;
+}
+
+.tequila:hover{
+    cursor: pointer;
+    font-family:'Amatic SC', cursive;
+}
+/*end home page content styling*/

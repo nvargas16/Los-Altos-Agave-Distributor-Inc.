@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+
+    <link rel="stylesheet" href="./contactstyle.css" type="text/css">
+ 
+
+    <!--font-family: 'Roboto', sans-serif;-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+    <!--font-family: 'Anton', sans-serif;-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+
+    <!--font-family: 'Amatic SC', cursive;-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet"> 
+
+  
+
+  
+
+</head>
+<body>
+    <div class= "parent-main">
+        <!--Add to elements to the white space-->
+    <div class= "main">
+       <header>
+          
+
+            <!--nav bar-->
+            <div class= "nav-parent">
+                <ul class= "nav">
+                   <li class= "logoli">
+                    <a href="./index.html"><img src="./Images/logo.jpg" alt="Los Altos Agave Distributor, Inc." 
+                    style="width:250px; height:200px;" class= "logo"></a>
+
+                   </li>
+                    <li class= "bar one">
+                        <a href="./index.html">
+                            <div class= "nav-shape">
+                                <p class= "navtext">
+                                    Home
+                                </p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class= "bar">
+                        <div class= "nav-shape">
+                            <p class= "navtext">
+                                About 
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class= "nav-shape">
+                            <p class= "navtext">
+                                Products
+                            </p>
+                        </div>
+                    </li>
+                    <li class= "bar">
+                        <div class= "nav-shape">
+                            <p class= "navtext">
+                                Specials
+                            </p>
+                        </div>
+                    </li>
+                    <li class= "bar">
+                        <a href="./contact.html">
+                            <div class= "nav-shape">
+                                <p class= "navtext">
+                                    Contact
+                                </p>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+       </header>
+    
+       <!--end of nav bar-->
+
+
+
+       <!--content-->
+       <!--phone/fax-->
+       <div class= "content">
+          <div class= "space"></div>
+        <div class= "content1">
+            <div class= "phone-fax">
+                <p class= "number1">
+                    <strong>Phone/Fax</strong>: (414)671-4751
+                </p>
+            </div>
+        </div>
+        <!--email-->
+        <div class= "content2">
+            <div class= "email">
+                <a href="mailto:sales@losaltosagavedistributor.com">
+                    <p class= "email-adress">
+                        <strong>Email</strong>: sales@losaltosagavedistributor.com
+                    </p>
+                </a>
+            </div>
+        </div>
+        <!--adress-->
+        <div class= "content3">
+            <div class= "adress">
+                <a href= "https://www.google.com/maps/place/Los+Altos+Agave/@42.9950571,-87.9571044,15z/data=!4m5!3m4!1s0x0:0xb71004f54521f9b7!8m2!3d42.9950571!4d-87.9571044"
+                target= "_blank">
+                    <p class= "adresstext">
+                        3431 W. Forest Home Ave <br> Milwaukee, WI 53215
+                    </p>
+                </a>
+            </div>
+        </div>
+        <!--google map image/link-->
+        <div class= "content4">
+            <div class= "location">
+                <a href= "https://www.google.com/maps/place/Los+Altos+Agave/@42.9950571,-87.9571044,15z/data=!4m5!3m4!1s0x0:0xb71004f54521f9b7!8m2!3d42.9950571!4d-87.9571044"
+                target= "_blank">
+                <img src= "./Images/location.png" alt= "Los Altos Agave Distributor, Inc. Google Map Location" class= "locationmap">
+                </a>
+            </div>
+        </div>
+        <!--contact form-->
+        <div class= "content5">
+            <h1 class= "formtitle">
+                Contact Form
+            </h1>
+
+            <div class= "container">
+                <form class= "form" id= "formid">
+                    <input type="text" placeholder="Your name*" class= "here" id= "input1">
+                    <div class= "required-text"></div>
+
+                    <input type="text" placeholder="Email*" class= "here" id="input2">
+                    <div class= "required-text"></div>
+
+                    <textarea placeholder="Message*" class= "message" id= "input3"></textarea>
+                    <div class= "required-text"></div>
+
+                    <input type="submit" class= "submit-button" id="button1" onclick="myFunction()">
+
+                </form>
+            </div>
+        </div> 
+       </div>
+    </div>
+    </div>  
+
+    <!--link js file at end of body bc page loads from top to bottom-->
+    <script src= "contact.js"> </script>
+
+    
+</body>
+</html>

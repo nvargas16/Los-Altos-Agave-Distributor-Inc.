@@ -1,0 +1,244 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+/*background*/
+body{
+    background-image: url("./Images/tequila.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    vertical-align: middle;
+    background-size: 120%;
+    background-blend-mode: multiply;
+    background-color: rgba(0, 0, 0, .6);  
+    background-attachment: fixed;
+}
+/*white space*/
+.main{
+    width:1122px;
+    height:1150px;
+    background-color: white;
+    border-radius: 100px;
+    margin-bottom: 60px;
+}
+/*used to center div*/
+.parent-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 70px;
+}
+/*nav bar styling*/
+.logo{
+    padding-top: 37px;
+    padding-left: 31px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+}
+.logo img{
+    display: inline-block;
+}
+.nav-shape{
+    width:120px;
+    height:35px;
+    border-radius: 80px;
+    border: solid black 3px;
+    background-color: white;  
+}
+.nav li{
+    list-style: none;
+    display: inline-block;
+    vertical-align: middle;
+}
+.bar.one{
+    padding-left:120px;
+    padding-bottom: 0;
+}
+.bar{
+    padding-left:15px;
+    padding-right:15x;
+    padding-top:-50px;
+    
+}
+.navtext{
+    font-family:'Roboto', sans-serif;
+    font-weight: 800;
+    font-size:15px;
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 4px;
+    color:black;
+}
+.nav-shape:hover{
+    background-color: black;
+    cursor: pointer;
+    color:white; 
+}
+.nav-text:hover{
+    color:white;
+}
+.nav a:hover{
+    color:white;
+}
+.nav a{
+    text-decoration: none;
+    color:white;
+}
+/*only elements with an anchor element will go white*/
+a .navtext:hover{
+    color: white;
+
+}
+/*end of navbar styling*/
+.space{
+    height:60px;
+}
+
+/*phone syling*/
+.phone-fax{
+    width:374px;
+    height:60px;
+    border-radius: 80px;
+    border: solid black 3px;
+    background-color: black;
+}
+.number1{
+    font-family:'Roboto', sans-serif;
+    font-size:28px;
+    text-align: center;
+    vertical-align: middle;
+    color:white;
+    padding-top:10px;
+}
+.content1{
+    padding-left: 50px;
+}
+
+/*email styling*/
+.email{
+    width:600px;
+    height:60px;
+    border-radius: 80px;
+    border: solid black 3px;
+    background-color: black;  
+}
+.email-adress{
+    font-family:'Roboto', sans-serif;
+    font-size:28px;
+    text-align: center;
+    vertical-align: middle;
+    color:white;
+    padding-top:10px;
+}
+.email a{
+    text-decoration: none;
+    color:white;
+}
+.content2{
+    padding-top:10px;
+    padding-left: 50px;
+}
+
+.email:active{
+    transform: scale(0.95);
+}
+
+
+
+/*adress styling*/
+.adresstext{
+    font-family: 'Anton', sans-serif;
+    font-size: 70px;
+    color:black;
+    line-height: 80px;
+}
+.adress a{
+    text-decoration: none;
+}
+.content3{
+    padding-top:10px;
+    padding-left: 50px;
+}
+a .adresstext:hover{
+    font-family:'Amatic SC', cursive;
+    /*color:#06330c;*/
+}
+/*google map styling*/
+.locationmap{
+    position: absolute;
+    top:270px;
+    right:200px;
+}
+/*form styling*/
+.formtitle{
+    font-family: 'Roboto', sans-serif;
+    color:black;
+    text-align: center;
+    padding-top: 80px;
+    letter-spacing: 10px;
+}
+
+.container{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height:440px;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.here{
+    width:100%;
+    box-sizing: border-box;
+    border: solid 1px black;
+    padding:10px;
+    font-family: 'Roboto', sans-serif;
+}
+.message{
+    width:900px;
+    height:150px;
+    padding:10px;
+    resize: none;
+    border: solid 1px black;
+    font-family: 'Roboto', sans-serif;
+}
+.container,
+.here,
+.message
+{
+    font-family: 'Roboto', sans-serif;
+    color: black;
+}
+.required-text{
+    text-align: left;
+    color: red;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding:5px;
+}
+.submit-button{
+    width:200px;
+    padding: 10px 10px;
+    font-family:'Roboto', sans-serif;
+    color: white;
+    font-size:28px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 80px;
+    background-color: black;
+    outline: none;
+    margin-left: 330px;
+    cursor: pointer;
+}
+
+/*submit button is 5% smaller when clicked*/
+.submit-button:active{
+    transform: scale(0.95);
+}
+
+
+
+
+
